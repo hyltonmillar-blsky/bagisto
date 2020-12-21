@@ -1,0 +1,65 @@
+[
+   {
+      "id": 1,
+      "country_code": "ZA",
+      "code": "EC",
+      "default_name": "Eastern Cape",
+      "country_id": 1
+   },
+   {
+      "id": 2,
+      "country_code": "ZA",
+      "code": "FS",
+      "default_name": "Free State",
+      "country_id": 1
+   },
+   {
+      "id": 3,
+      "country_code": "ZA",
+      "code": "GP",
+      "default_name": "Gauteng",
+      "country_id": 1
+   },
+   {
+      "id": 4,
+      "country_code": "ZA",
+      "code": "KZN",
+      "default_name": "Kwazulu-Natal",
+      "country_id": 1
+   },
+   {
+      "id": 5,
+      "country_code": "ZA",
+      "code": "LP",
+      "default_name": "Limpopo",
+      "country_id": 1
+   },
+   {
+      "id": 6,
+      "country_code": "ZA",
+      "code": "MP",
+      "default_name": "Mpumalanga",
+      "country_id": 1
+   },
+   {
+      "id": 7,
+      "country_code": "ZA",
+      "code": "NC",
+      "default_name": "Northern Cape",
+      "country_id": 1
+   },
+   {
+      "id": 8,
+      "country_code": "ZA",
+      "code": "NW",
+      "default_name": "North West",
+      "country_id": 1
+   },
+   {
+      "id": 9,
+      "country_code": "ZA",
+      "code": "WC",
+      "default_name": "Western Cape",
+      "country_id": 1
+   }
+]

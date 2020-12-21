@@ -1,0 +1,70 @@
+$theme-colors: (
+   
+   "primary": #6c9f7f,
+   "secondary": #59648E,
+   "brand-primary": #EB1158,
+   "brand-color": #6c9f7f
+
+);
+//shop variables
+$brand-color: #6c9f7f;
+$primary: #6c9f7f;
+$secondary: #59648E;
+
+
+@import "~bootstrap/scss/bootstrap";
+
+.btn {
+   border: none;
+   color: #fff;
+   cursor: pointer;
+   transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+   font: inherit;
+   display: inline-block;
+
+   &:hover,
+   &:active,
+   &:focus {
+       opacity: 0.75;
+       border: none;
+   }
+
+   &.btn-sm {
+       padding: 6px 12px;
+   }
+   &.btn-md {
+       padding: 8px 16px;
+   }
+   &.btn-lg {
+       padding: 10px 20px;
+   }
+   &.btn-xl {
+       padding: 12px 24px;
+       font-size: 16px;
+   }
+
+   &.btn-primary {
+       background: $primary !important;
+       color: #ffffff;
+   }
+
+   &.btn-black {
+       background: #000;
+       color: #ffffff;
+   }
+
+   &.btn-white {
+       background: #ffffff;
+       color: #000;
+   }
+
+   &:disabled,
+   &[disabled="disabled"],
+   &[disabled="disabled"]:hover,
+   &[disabled="disabled"]:active {
+       cursor: not-allowed;
+       background: #b1b1ae;
+       box-shadow: none;
+       opacity: 1;
+   }
+}

@@ -1,0 +1,29 @@
+{
+    "name": "bagisto/laravel-admin",
+    "license": "MIT", 
+    "authors": [
+        {
+            "name": "Hylton Millar",
+            "email": "hyltonm@blsky.co.za"
+        }
+    ],
+    "require": {
+        "bagisto/laravel-user": "dev-master",
+        "bagisto/laravel-ui": "dev-master",
+        "bagisto/laravel-core": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Blsky\\Admin\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Blsky\\Admin\\Providers\\AdminServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}

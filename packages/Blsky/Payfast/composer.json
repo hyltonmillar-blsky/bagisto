@@ -1,0 +1,25 @@
+{
+    "name": "blsky/laravel-payfast",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hylton Millar",
+            "email": "hyltonm@blsky.co.za"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Blsky\\Payfast\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Blsky\\Payfast\\Providers\\PayfastServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}
